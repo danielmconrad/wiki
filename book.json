@@ -32,7 +32,7 @@
       "type": "c3"
     },
     "edit-link": {
-      "base": "https://github.com/weallcode/docs/edit/master/book",
+      "base": "https://github.com/weallcode/wiki/edit/master/book",
       "label": "Edit"
     },
     "insert-logo": {
@@ -45,7 +45,7 @@
   },
   "variables": {
     "sites": {
-      "docs": "https://docs.weallcode.org",
+      "wiki": "https://wiki.weallcode.org",
       "github": "https://github.com/weallcode",
       "instagram": "https://instagram.com/weallcode",
       "twitter": "https://twitter.com/weallcode"

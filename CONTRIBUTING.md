@@ -14,4 +14,4 @@ Where does your contribution fit into our timeline? Is it a bug other people are
 
 We try to keep contribution pretty consistent across our repositories. Give these a quick read and report back!
 
-- [We All Code Code of Conduct](https://docs.weallcode.org/contributing/code-of-conduct)
+- [We All Code Code of Conduct](https://wiki.weallcode.org/contributing/code-of-conduct)

@@ -1,12 +1,12 @@
-# docs
+# wiki
 
-[![weallcode-docs](https://img.shields.io/badge/weallcode-docs-blue.svg?style=flat)](https://docs.weallcode.org)
-[![build](https://circleci.com/gh/weallcode/docs.svg?style=shield&circle-token=TODO)](https://circleci.com/gh/weallcode/docs)
+[![weallcode-wiki](https://img.shields.io/badge/weallcode-wiki-blue.svg?style=flat)](https://wiki.weallcode.org)
+[![build](https://circleci.com/gh/weallcode/wiki.svg?style=shield&circle-token=TODO)](https://circleci.com/gh/weallcode/wiki)
 [![standard-readme](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat)](https://github.com/RichardLitt/standard-readme)
 
 > We All Code Documentation
 
-These docs are built using [GitBook](https://toolchain.gitbook.com). Any changes should be made to markdown files contained with the `book` subdirectory.
+This wiki is built using [GitBook](https://toolchain.gitbook.com). Any changes should be made to markdown files contained with the `book` subdirectory.
 
 ## Table of Contents
 
@@ -20,8 +20,8 @@ These docs are built using [GitBook](https://toolchain.gitbook.com). Any changes
 ## Install
 
 ```bash
-git clone git@github.com:weallcode/docs.git
-cd docs
+git clone git@github.com:weallcode/wiki.git
+cd wiki
 yarn install
 ```
 

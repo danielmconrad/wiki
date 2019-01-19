@@ -32,7 +32,7 @@ jobs:
       - run: git add -f _book
       - run: git commit -am "deploy"
       - run: git filter-branch -f --prune-empty --subdirectory-filter _book
-      - run: git push -f -q https://${GH_TOKEN}@github.com/weallcode/docs.git gh-pages
+      - run: git push -f -q https://${GH_TOKEN}@github.com/weallcode/wiki.git gh-pages
       - run: git checkout master
 
 workflows:

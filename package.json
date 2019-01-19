@@ -1,9 +1,9 @@
 {
-  "name": "weallcode-docs",
+  "name": "weallcode-wiki",
   "version": "0.0.0",
   "description": "We All Code Documentation",
   "main": "index.js",
-  "repository": "https://github.com/weallcode/docs",
+  "repository": "https://github.com/weallcode/wiki",
   "author": "We All Code",
   "license": "MIT",
   "private": false,
