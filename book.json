@@ -1,6 +1,6 @@
 {
-  "title": "We All Code Docs",
-  "description": "We All Code Documenation",
+  "title": "We All Code Wiki",
+  "description": "We All Code Wiki",
   "root": "./book",
   "plugins": [
     "-lunr",

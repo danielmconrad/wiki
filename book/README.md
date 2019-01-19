@@ -1,3 +1,3 @@
-# We All Code Documentation
+# We All Code Wiki
 
-Welcome to the We All Code documentation portal!
+Welcome to the We All Code Wiki!

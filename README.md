@@ -4,7 +4,7 @@
 [![build](https://circleci.com/gh/weallcode/wiki.svg?style=shield&circle-token=TODO)](https://circleci.com/gh/weallcode/wiki)
 [![standard-readme](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat)](https://github.com/RichardLitt/standard-readme)
 
-> We All Code Documentation
+> We All Code Wiki
 
 This wiki is built using [GitBook](https://toolchain.gitbook.com). Any changes should be made to markdown files contained with the `book` subdirectory.
 

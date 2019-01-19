@@ -1,7 +1,7 @@
 {
   "name": "weallcode-wiki",
   "version": "0.0.0",
-  "description": "We All Code Documentation",
+  "description": "We All Code Wiki",
   "main": "index.js",
   "repository": "https://github.com/weallcode/wiki",
   "author": "We All Code",
