@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee|Poppins:300');
+
+/* More specific to override default */
+body .book.font-family-1 {
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* More specific to override default */
+body .book-summary {
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #070834;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal !important;
+}
+
+h1 {
+  font-family: "Bungee", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #426cff;
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+#book-search-input {
+  background: rgba(255, 255, 255, .07) !important;
+}
+
+#book-search-input input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.book-summary nav {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  color: white;
+}
+
+.book-summary ul.summary li a,
+.book-summary ul.summary li span {
+  color: white !important;
+}
+
+.book-summary ul.summary li.header {
+  font-family: "Bungee", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid rgba(255, 255, 255, .07);
+  padding-top: 30px;
+  color: #f6bb47;
+}
+
+.book-summary ul.summary .divider {
+  display: none;
+}
+
+.toc .toggle {
+  display: none;
+}

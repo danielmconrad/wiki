@@ -1,0 +1,24 @@
+{
+  "name": "weallcode-docs",
+  "version": "0.0.0",
+  "description": "We All Code Documentation",
+  "main": "index.js",
+  "repository": "https://github.com/weallcode/docs",
+  "author": "We All Code",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "deploy": "./node_modules/.bin/gh-pages -d _book",
+    "postinstall": "./node_modules/.bin/gitbook install",
+    "build": "./node_modules/.bin/gitbook build",
+    "start": "./node_modules/.bin/gitbook serve"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "gitbook-cli": "^2.3.2"
+  },
+  "engines": {
+    "node": ">=8.11.0",
+    "yarn": ">=1.6.0"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "title": "We All Code Docs",
+  "description": "We All Code Documenation",
+  "root": "./book",
+  "plugins": [
+    "-lunr",
+    "-search",
+    "atoc",
+    "code",
+    "custom-js-css",
+    "chart",
+    "edit-link",
+    "folding-menu",
+    "hide-published-with",
+    "insert-logo",
+    "katex",
+    "search-plus",
+    "variables"
+  ],
+  "pluginsConfig": {
+    "atoc": {
+      "addClass": true,
+      "className": "toc"
+    },
+    "custom-js-css": {
+      "js": [],
+      "css": [
+        "./assets/index.css"
+      ]
+    },
+    "chart": {
+      "type": "c3"
+    },
+    "edit-link": {
+      "base": "https://github.com/weallcode/docs/edit/master/book",
+      "label": "Edit"
+    },
+    "insert-logo": {
+      "url": "/assets/images/logo.png",
+      "style": "width:200px; background:none; margin-left:-82px;"
+    },
+    "variables": {
+      "files": {}
+    }
+  },
+  "variables": {
+    "sites": {
+      "docs": "https://docs.weallcode.org",
+      "github": "https://github.com/weallcode",
+      "instagram": "https://instagram.com/weallcode",
+      "twitter": "https://twitter.com/weallcode"
+    }
+  }
+}

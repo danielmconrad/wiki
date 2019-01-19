@@ -1,0 +1,51 @@
+version: 2.1
+
+jobs:
+  build:
+    working_directory: ~/repo
+    docker:
+      - image: circleci/node:8.11-stretch
+    steps:
+      - checkout
+      - restore_cache:
+          key: v1-dependencies-{{ checksum "yarn.lock" }}
+      - run: yarn install
+      - run: yarn build
+      - save_cache:
+          key: v1-dependencies-{{ checksum "yarn.lock" }}
+          paths:
+            - node_modules
+  deploy:
+    working_directory: ~/repo
+    docker:
+      - image: circleci/node:8.11-stretch
+    steps:
+      - checkout
+      - run: git config --global user.email "build-bot@weallcode.org"
+      - run: git config --global user.name "Build Bot"
+      - run: yarn install
+      - run: yarn build
+      - run: mv CNAME _book/CNAME
+      - run: mv .circleci _book/.circleci
+      # - run: yarn deploy
+      - run: git checkout -B gh-pages
+      - run: git add -f _book
+      - run: git commit -am "deploy"
+      - run: git filter-branch -f --prune-empty --subdirectory-filter _book
+      - run: git push -f -q https://${GH_TOKEN}@github.com/weallcode/docs.git gh-pages
+      - run: git checkout master
+
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore: gh-pages
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
